@@ -1,0 +1,114 @@
+
+.Start   {
+    font-size: 50px;
+    line-height: 62px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    vertical-align:middle;
+    color: #604E61 ;
+    text-shadow: 4px 4px #5D6891;
+    
+}
+
+.text  {
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    vertical-align:middle;
+    
+    color: #604E61 ;
+
+}
+
+.textBox {
+    color: #604E61 ;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 25px;
+    padding: 20px 200px 20px 200px;
+    position: center;
+    box-shadow: 0px 1px 5px #999;
+    background-color: #7395C0;
+    padding: 20px;
+    padding-right: 20%;
+    padding-left: 20%;
+    }
+
+.divBox2  {
+  background-color: #604E61;
+}
+
+.spanBox2 {
+  color: #604E61 ;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #7395C0;
+}
+
+.list {
+    font-family: 'Press Start 2P', cursive;
+    color: #604E61 ;
+    text-shadow: 1px 1px #5D6891;
+    text-align: center;
+  }
+
+  .listLeft {
+    font-family: 'Press Start 2P', cursive;
+    color: #604E61 ;
+    text-align: left;
+    padding-left: 50%;
+  }
+
+
+#firstcenter    {
+    float:left;
+    padding: 200px;
+}
+
+#secondcenter   {
+    float:right;
+    padding: 200px;
+}
+
+body {
+    padding: 100px 50px 100px;
+    background-color: #A5F0DE;
+  }
+
+.imgIcon    {
+    image-rendering: pixelated;
+    height: 480px;
+    width: 480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    font-size: 30px;
+    line-height: 20px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: #604E61 ;
+    margin:0 auto;    
+    display:block;
+}
+
+a:link, a:visited {
+    background-color: #7395C0;
+    color: #604E61 ;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    margin:   
+    display:inline-block;
+    text-align: center;
+    border: 1px #805772;
+  }
+
+  a:hover, a:active {
+    background-color: #805772;
+    color:#5D6891;
+  }
