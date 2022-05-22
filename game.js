@@ -21,7 +21,7 @@ let questions = [
     },
 
     {
-        question: 'Generics in java does not apply with?',
+        question: 'Generics in java does not apply to?',
         choice1: 'Array',
         choice2: 'Set',
         choice3: 'Tree' ,
@@ -48,7 +48,7 @@ let questions = [
     },
 
     {
-        question: 'For which of the following situations is only one array NOT appropriate?',
+        question: 'In which situations is only one array NOT appropriate?',
         choice1: 'Working with 30 scores on an exam.',
         choice2: 'Working with names and ages of students.',
         choice3: 'Working with mileage during a vacation.' ,
@@ -56,11 +56,143 @@ let questions = [
         answer: 2,
     },
 
-    
+    {
+        question: "What will the predfined variable string'people' store?" +
+        ' \n' +
+        'int numPeople=4;' +
+        ' \n' +
+        'if(numPeople>3) {' +
+        ' \n' +
+        '   people="Group";' +
+        ' \n' +
+        '}' +
+        ' \n' +
+        'else if (numPeople==2) {' +
+        ' \n' +
+        '   people="Couple";' +
+        ' \n' +
+        '}' +
+        ' \n' +
+        'else if (numPeople==1) {' +
+        ' \n' +
+        '   people="Person";' +
+        ' \n' +
+        '}' +
+        ' \n' +
+        'else {' +
+        ' \n' +
+        'people="no people";' +
+        ' \n' +
+        '}',
+        choice1: 'Group',
+        choice2: 'Couple',
+        choice3: 'Person' ,
+        choice4: 'People',
+        answer: 1,
+    },
+
+    {
+        question: 'What will points be assigned to when this code is iterated?' +
+        ' \n' +
+        'int points =7;' +
+        ' \n' +
+        'if(32>1) {' +
+        ' \n' +
+        'points = 5;' +
+        ' \n' +
+        '}' +
+        ' \n' +
+        'else if(3>10) {' +
+        ' \n' +
+        'points =points + 1;' +
+        ' \n' +
+        '}',
+        choice1: '7',
+        choice2: '5',
+        choice3: '6' ,
+        choice4: 'Points',
+        answer: 2,
+    },
+
+    {
+        question: 'What will be displayed to the screen after this code has iterated?' +
+        ' \n' +
+        'int highScore =1000;' +
+        ' \n' +
+        'int userScore =0;' +
+        ' \n' +
+        'userScore= userScore + 100;' +
+        ' \n' +
+        'userScore= userScore + 50;' +  
+        ' \n' +
+        'userScore= userScore * 2;' +
+        ' \n' +
+        'userScore= userScore + 400;' +
+        ' \n' +
+        
+        'if (highScore >= userScore) {' +
+        ' \n' +
+        'System.out.println("Congratulations");' +
+        ' \n' +
+        '}' +
+        ' \n' +
+        'Else {' +
+        ' \n' +
+        'System.out.println("Maybe next time");' +
+        ' \n' +
+        '}',
+        choice1: '0',
+        choice2: 'HighScore:1000',
+        choice3: 'Congratulations' ,
+        choice4: 'Maybe next time',
+        answer: 3,
+    },
+
+    {
+        question: 'For the code bellow, what will be the last line printed to the screen?' +
+        ' \n' +
+        ' for(int i= 0 ; i < 10: ++i) {' +
+        ' \n' +
+        'System.out.println(i);' + 
+        ' \n' +
+         '}',
+        choice1: '10',
+        choice2: 'Nothing, there is an error in the code.',
+        choice3: '9' ,
+        choice4: '11',
+        answer: 3,
+    },
+
+    {
+        question: 'What will be the last thing printed to the screen?' +
+        ' \n' +
+        'int x =243;' +
+        ' \n' +
+        '   int iterations = 0;' +
+        ' \n' +
+        '   while(x>13) {' +
+        ' \n' +
+        '   x = x-11;' +
+        ' \n' +
+        '   x = x/3;' +
+        ' \n' +
+        '   iterations = iterations +1;' +
+        ' \n' +
+        '   }' +
+        ' \n' +
+        '   System.out.println(iterations);',
+        choice1: '7',
+        choice2: '2',
+        choice3: '3' ,
+        choice4: '5',
+        answer: 3,
+    }
+
+
 ]
 
 const SCORE_POINTS = 100;
-const MAX_QUESTIONS = 5;
+const MAX_QUESTIONS = 10;
 
 startGame = () => {
     questionCounter = 0
