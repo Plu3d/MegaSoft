@@ -10,22 +10,59 @@
         <body>
             <div class="all">
             <h1 class="Start"; id="Title">
-                Loops
+                Loops (for)
             </h1>
 
-            <img class="imgIcon" src="Images/monitorIcon.gif">
+            <img class="imgIconSmall" src="Images/loop.gif">
         </div>
 
-        <P class="Start">
-            Question
+        <P class="textBox3">
+            Loops are used to iterate through code a set amount of times, or until a statement is not valid. This is very useful and fundamental for making anything meaningful.
+
+A for loop is used to iterate through a block of code a predetermined amount of times and is written in the format of:
+
         </P>
+
+        <P class="textBox3">
+        for (statement1; statement2: statement3)	{
+            Code to iterate
+        }
+        </P>
+
+        <P class="textBox3" style="font-size: 12px;">
+        Statement1: is executed once, prior to the loop starting.<br><br>
+
+        Statement2: declares the condition for the code continue iterating for<br><br>
+
+        Statement3: is executed every time the code is run<br><br>
+
+        And the code to iterate is defined in the code block.
+        </P>
+
+        <P class="textBox3" style="font-size: 12px;">
+        The main way to use a for loop is to iterate a variable (i) for statement1 as 0.<br><br> Write the conditional expression using a mathematical logic conditional statement to set how many times you wish for the loop to run<br> ( for three iterations, i  < 3 . Isn’t that cute).<br><br>Statement3 is used to increment the variable initialed in statement1, so that each iteration it progresses to exceed the statement 2 condition.
+        </P>
+
+        <P class="textBox3" style="font-size: 12px;">
+        Example<br><br>
+
+        for (int i = 0; i < 3; ++i)		{<br>
+        System.out.println(“Iteration no.”+i);<br>
+        }<br><br>
+
+        Will print:<br>
+        Iteration no.0<br>
+        Iteration no.1<br>
+        Iteration no.2
+        </P>
+
 
         <div id="firstcenter">
             <a href="infoConditionals.html">Back</a>
             </div>
 
         <div id="secondcenter">
-            <a href="infoArrays.html">Next</a>
+            <a href="infoLoops2.html">Next</a>
             </div>
 
         </body>
