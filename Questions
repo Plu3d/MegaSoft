@@ -15,16 +15,12 @@ else	{
 people = “no people”;
 }
 
-A1
-Group
-A2
-Couple
-A3
-Person
-A4
-People
+(A)Group
+(B)Couple
+(C)Person
+(D)People
 
-Correct answer: A2
+Correct answer: B
 
 Q2
 
@@ -38,19 +34,12 @@ else if (3<10)	{
 points = points +1;
 }
 
-A1
-7
+(A) 7
+(B) 5
+(C) 6
+(D) Points
 
-A2
-5
-
-A3
-6
-
-A4
-Points
-
-Correct answer: A2
+Correct answer: B
 
 Q3
 What will be displayed to the screen after this code has iterated?
@@ -69,19 +58,12 @@ Else {
 System.out.println(“Maybe next time”);
 }
 
-A1
-0
+(A) 0
+(B) HighScore: 1000
+(C) Congratulations
+(D) Maybe next time
 
-A2
-HighScore: 1000
-
-A3
-Congratulations
-
-A4
-Maybe next time
-
-Correct answer: A3
+Correct answer: C
 
 Q4
 For the code bellow, what will be the last line printed to the screen?
@@ -90,17 +72,12 @@ for (int i = 0; i < 10: ++i)	{
 System.out.println(i);
 }
 
-A1
-10
+(A) 10
+(B) Nothing, there is an error in the code
+(C) 9
+(D) 11
 
-A2
-Nothing, there is an error in the code
-
-A3
-9
-A4
-11
-Correct answer: A3
+Correct answer: C
 
 Q5
 
@@ -114,16 +91,98 @@ int x = 243;
     }
     System.out.println(iterations);
 
-A1
-7
-
-A2
-2
-
-A3
-3
-
-A4
-5
+(A) 7
+(B) 2
+(C) 3
+(D) 5
   
-Correct Answer: A3
+Correct Answer: C
+
+Q6
+Which of following can not be used as variable name in Java programming language ?
+(A) Identifier
+(B) Keywords
+(C) Identifier and Keywords
+(D) literal
+
+correct answer: B
+
+Q7
+Which is the valid variable name ?
+A. 5thTeam
+
+B. &5thteam
+
+C. _5thTeam
+
+D. None of Above
+
+correct answer: C
+
+------
+
+1.Java supports both Primitive & Non-Primitive(User Defined) datatypes. Which one of the following is not a primitive datatype?
+
+(A) byte
+(B) short
+(C) long
+(D) class,
+
+2.In Java every data type requires some bytes of memory, How many bytes void data type requires?
+(A) 1
+(B) 2
+(C) 3
+(D) 0
+
+3.Predict the output 
+public class Main
+{
+    public static void main(String[] args) {
+        int a = 'a';
+        System.out.print(a);
+    }
+}
+(A) 'a'
+(B) a
+(C) 65
+(D) 97
+
+4.Find the output of below Java program:
+
+public class Main
+{
+    public static int a;
+
+    public Main(){
+        a=10;
+    }
+
+    public static void printMe(){
+        System.out.println(a);
+    }
+
+   public static void main(String[] args) {
+       printMe();
+  }
+
+}
+
+(A) 10
+(B) 0
+(C) Error in Code
+(D) Nothing is printed
+
+5. Find the output of the following :
+
+public class MyClass {
+public static void main(String[] args){
+ int a = 10;
+ System.out.println(++a++);
+}
+}
+
+
+(A) 10
+(B) 11
+(C) 12
+(D) Compilation Error
