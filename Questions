@@ -118,71 +118,32 @@ C. _5thTeam
 D. None of Above
 
 correct answer: C
+Q8
 
-------
-
-1.Java supports both Primitive & Non-Primitive(User Defined) datatypes. Which one of the following is not a primitive datatype?
-
-(A) byte
-(B) short
-(C) long
-(D) class,
-
-2.In Java every data type requires some bytes of memory, How many bytes void data type requires?
-(A) 1
-(B) 2
-(C) 3
-(D) 0
-
-3.Predict the output 
-public class Main
 {
-    public static void main(String[] args) {
-        int a = 'a';
-        System.out.print(a);
+        question: 'Which are the invalid variable names?',
+        choice1: '1stLevel',
+        choice2: 'first Level',
+        choice3: '*firstLevel' ,
+        choice4: 'All of the Above',
+        answer: 4,
+    },
+Q9
+    {
+        question: 'Which one of the following is not a primitive datatype?',
+        choice1: 'byte',
+        choice2: 'short',
+        choice3: 'long' ,
+        choice4: 'class',
+        answer: 4,
+    },
+Q10
+    {
+        question: 'How many bytes do void data type require?',
+        choice1: '1',
+        choice2: '2',
+        choice3: '3' ,
+        choice4: '0',
+        answer: 4,
     }
-}
-(A) 'a'
-(B) a
-(C) 65
-(D) 97
 
-4.Find the output of below Java program:
-
-public class Main
-{
-    public static int a;
-
-    public Main(){
-        a=10;
-    }
-
-    public static void printMe(){
-        System.out.println(a);
-    }
-
-   public static void main(String[] args) {
-       printMe();
-  }
-
-}
-
-(A) 10
-(B) 0
-(C) Error in Code
-(D) Nothing is printed
-
-5. Find the output of the following :
-
-public class MyClass {
-public static void main(String[] args){
- int a = 10;
- System.out.println(++a++);
-}
-}
-
-
-(A) 10
-(B) 11
-(C) 12
-(D) Compilation Error
