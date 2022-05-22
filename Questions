@@ -146,4 +146,48 @@ Q10
         choice4: '0',
         answer: 4,
     }
+   Q11
+    {
+        question: 'Which of these is an incorrect array declaration?',
+        choice1: 'int[] arr = new int[10];',
+        choice2: 'int arr[] = int [10] new;',
+        choice3: 'int arr[]; arr = new int[10];' ,
+        choice4: 'int arr[] = new int[10];',
+        answer: 2,
+    },
+Q12
+    {
+        question: 'Generics in java does not apply to?',
+        choice1: 'Array',
+        choice2: 'Set',
+        choice3: 'Tree' ,
+        choice4: 'List',
+        answer: 1,
+    },
+Q13
+    {
+        question: 'How do you sort an Array?',
+        choice1: 'Collection.sort()',
+        choice2: 'Array.sort()',
+        choice3: 'Arrays.sort()' ,
+        choice4: 'System.sort()',
+        answer: 3,
+    },
+Q14
+    {
+        question: 'How do you copy the content of an Array?',
+        choice1: 'Arrays.copy()',
+        choice2: 'Array.copy()',
+        choice3: 'System.arrayCopy()' ,
+        choice4: 'Collection.copy()',
+        answer: 3,
+    },
+Q15
+    {
+        question: 'In which situations is only one array NOT appropriate?',
+        choice1: 'Working with 30 scores on an exam.',
+        choice2: 'Working with names and ages of students.',
+        choice3: 'Working with mileage during a vacation.' ,
+        choice4: 'Working with company sales.',
+        answer: 2,
 
