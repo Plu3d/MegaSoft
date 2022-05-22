@@ -186,13 +186,60 @@ let questions = [
         choice3: '3' ,
         choice4: '5',
         answer: 3,
+    },
+    
+    {
+        question: 'Which of the following can not be used as a variable name in Java programming language?',
+        choice1: 'Identifier',
+        choice2: 'keywords',
+        choice3: 'Identifier and Keywords' ,
+        choice4: 'literal',
+        answer: 2,
+    },
+    
+    {
+        question: 'Which is the valid variable name?',
+        choice1: '5thTeam',
+        choice2: '&5thTeam',
+        choice3: '_5thTeam' ,
+        choice4: 'None of the Above',
+        answer: 3,
+    },
+    
+    {
+        question: 'Which are the invalid variable names?',
+        choice1: '1stLevel',
+        choice2: 'first Level',
+        choice3: '*firstLevel' ,
+        choice4: 'All of the Above',
+        answer: 4,
+    },
+    
+    {
+        question: 'Which one of the following is not a primitive datatype?',
+        choice1: 'byte',
+        choice2: 'short',
+        choice3: 'long' ,
+        choice4: 'class',
+        answer: 4,
+    },
+    
+    {
+        question: 'How many bytes do void data type require?',
+        choice1: '1',
+        choice2: '2',
+        choice3: '3' ,
+        choice4: '0',
+        answer: 4,
     }
+    
+    
 
 
 ]
 
 const SCORE_POINTS = 100;
-const MAX_QUESTIONS = 10;
+const MAX_QUESTIONS = 15;
 
 startGame = () => {
     questionCounter = 0
